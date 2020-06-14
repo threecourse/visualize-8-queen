@@ -170,5 +170,8 @@ export const mutations = {
   updateStatus(state) {
     state.gridStatus = calcGridStatus(state.grid, state.height, state.width)
     state.gridBeam = calcGridBeam(state.grid, state.height, state.width)
+    if (state.gridStatus[0][0] === 2) {
+      this.$notifySuccess('Cleared!')
+    }
   }
 }
