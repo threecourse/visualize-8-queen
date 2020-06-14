@@ -1,4 +1,4 @@
-### visualize-8-queen
+## visualize-8-queen
 
 Nuxt.jsで作成した、エイト・クイーン問題を題材にしたGUIです。  
 GitHub Pagesで公開しています。 
